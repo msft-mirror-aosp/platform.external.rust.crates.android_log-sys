@@ -6,8 +6,8 @@ third_party {
     value: "https://crates.io/crates/android_log-sys"
   }
   url {
-    type: GIT
-    value: "https://github.com/nercury/android_log-sys-rs"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/android_log-sys/android_log-sys-0.2.0.crate"
   }
   version: "0.2.0"
   license_type: NOTICE

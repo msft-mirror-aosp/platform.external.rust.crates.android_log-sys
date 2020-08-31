@@ -5,4 +5,11 @@ rust_library {
     crate_name: "android_log_sys",
     srcs: ["src/lib.rs"],
     edition: "2015",
+    host_supported: true,
+    target: {
+        linux_glibc: {
+            // liblog is not added as a dependency for linux_glibc target
+            enabled: false,
+        },
+    },
 }

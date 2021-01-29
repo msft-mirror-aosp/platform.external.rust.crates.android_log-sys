@@ -1,0 +1,17 @@
+--- Android.bp.orig	2020-10-30 16:31:00.469140136 -0700
++++ Android.bp	2020-10-30 16:31:43.436969421 -0700
+@@ -6,4 +6,14 @@
+     crate_name: "android_log_sys",
+     srcs: ["src/lib.rs"],
+     edition: "2015",
++    target: {
++        linux_glibc: {
++            // liblog is not added as a dependency for linux_glibc target
++            enabled: false,
++        },
++    },
++    apex_available: [
++        "//apex_available:platform",
++        "com.android.virt",
++    ],
+ }

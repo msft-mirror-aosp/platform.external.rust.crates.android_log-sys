@@ -23,6 +23,9 @@
       "name": "doh_unit_test"
     },
     {
+      "name": "keystore2_selinux_concurrency_test"
+    },
+    {
       "name": "keystore2_selinux_test"
     },
     {
@@ -42,6 +45,9 @@
     },
     {
       "name": "logger_device_unit_tests"
+    },
+    {
+      "name": "virtualizationservice_device_test"
     }
   ]
 }

@@ -7,6 +7,7 @@
     "com.android.virt"
   ],
   "min_sdk_version": "29",
+  "vendor_available": true,
   "dependencies": true,
   "device": true,
   "run": true

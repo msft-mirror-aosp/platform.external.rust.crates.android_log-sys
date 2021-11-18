@@ -42,6 +42,7 @@ license {
 rust_library {
     name: "libandroid_log_sys",
     host_supported: true,
+    vendor_available: true,
     crate_name: "android_log_sys",
     srcs: ["src/lib.rs"],
     edition: "2015",

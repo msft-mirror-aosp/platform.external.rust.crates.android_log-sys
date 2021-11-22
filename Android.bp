@@ -42,16 +42,19 @@ license {
 rust_library {
     name: "libandroid_log_sys",
     host_supported: true,
-    vendor_available: true,
     crate_name: "android_log_sys",
+    cargo_env_compat: true,
+    cargo_pkg_version: "0.2.0",
     srcs: ["src/lib.rs"],
     edition: "2015",
     apex_available: [
         "//apex_available:platform",
         "com.android.compos",
         "com.android.resolv",
+        "com.android.uwb",
         "com.android.virt",
     ],
+    vendor_available: true,
     min_sdk_version: "29",
     target: {
         linux_glibc: {

@@ -1,0 +1,6 @@
+target: {
+    linux_glibc: {
+        // liblog is not added as a dependency for linux_glibc target
+        enabled: false,
+    },
+}

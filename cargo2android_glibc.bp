@@ -3,4 +3,8 @@ target: {
         // liblog is not added as a dependency for linux_glibc target
         enabled: false,
     },
+    linux_musl: {
+        // liblog is not added as a dependency for linux_musl target
+        enabled: false,
+    },
 }

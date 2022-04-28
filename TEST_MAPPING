@@ -40,9 +40,6 @@
       "name": "logger_test_multiple_init"
     },
     {
-      "name": "open_then_run_module"
-    },
-    {
       "name": "virtualizationservice_device_test"
     }
   ],
@@ -79,9 +76,6 @@
     },
     {
       "name": "logger_test_multiple_init"
-    },
-    {
-      "name": "open_then_run_module"
     },
     {
       "name": "virtualizationservice_device_test"
